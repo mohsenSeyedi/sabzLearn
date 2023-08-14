@@ -1,0 +1,102 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./default-style.css";
+@import "./course-box.css";
+@import "./footer.css";
+@import "./pagination.css";
+@import "./divider-slash.css";
+@import "./side-menu.css";
+
+
+button:not(.close-menu-btn){
+    color: var(--white-color);
+    background-color: var(--primery-color);
+    font-family: var(--primery-font);
+    font-size: 1.8rem;
+    border: none;
+    transition: all .3s;
+}
+button:hover{
+    opacity: .8;
+}
+.social-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    border-bottom: .1rem solid #767676;
+    padding-bottom: 2rem;
+}
+.social-login-text{
+    font-size: 3rem;
+    color: var(--white-color);
+}
+.social-login-link{
+    font-size: 1.3rem;
+    color: var(--white-color);
+    margin-right: 1rem;
+    background-color: gray;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+.login-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+.account-register-inner{
+    width: 50%;
+    position: absolute;
+    right: 30%;
+    top: .5rem;
+}
+.account-register-inner-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.account-register-inner-form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+.account-register-inner-form-item label{
+    color: var(--white-color);
+    display: block;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.account-register-inner-form-item__input{
+    background-color: rgb(0 0 0 / 18%);
+    color: var(--white-color);
+    border-radius: .7rem;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 1.8rem;
+    height: 4.5rem;
+    margin-top: 1.5rem;
+    padding-right: 1rem;
+    font-family: var(--primery-font);
+}
+.login-btn{
+    width: 15%;
+    padding: .8rem 0;
+    margin: 2rem 0;
+}
+
+.register-btn{
+    width: 22%;
+    padding: .8rem 2rem;
+    margin: 1.5rem 0;
+}
+.footer{
+    margin-top: 62rem;
+}

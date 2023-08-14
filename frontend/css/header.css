@@ -1,0 +1,223 @@
+
+/* Header */
+/* Top-bar */
+
+.header{
+    width: 100%;
+    height: 9rem;
+}
+.top__bar{
+    width: 100%;
+    height: 4rem;
+    background-color: #282938;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.top__bar__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top__bar__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top__bar__menu a ,span{
+    color: var(--white-color);
+    opacity: 0.8;
+    transition: opacity .3s;
+}
+.top__bar__menu a:hover{
+    opacity: 1;
+}
+.top__bar-left span{
+    opacity: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.top__bar__link img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: .3rem;
+}
+.icon-top{
+    color: var(--white-color);
+    transition: opacity .3s;
+}
+.icon-top:hover{
+    opacity: 0.3;
+}
+.top__bar-right .top__bar__item{
+    margin: 0 1rem;
+}
+.top__bar-left .top__bar__item{
+    margin: 0 .3rem;
+}
+/* End of Top-bar */
+
+/* nav-bar */
+.nav__bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem .5rem;
+    background-color: #2f3041;
+    border-bottom: .1rem solid #767676;
+}
+.nav__bar__right{
+    display: flex;
+    align-items: center;
+}
+.menu-icon-hamburger-btn{
+    font-size: 3rem;
+    color: var(--white-color);
+    opacity: 0.8;
+    cursor: pointer;
+    visibility: hidden;
+    display: none;
+}
+.primery-logo{
+    width: 7rem;
+    height: 4rem;
+}
+.nav__bar__menu-right{
+    display: flex;
+    align-items: center;
+    margin-right: 3.5rem;
+}
+.nav__bar__link{
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    margin: 0 .8rem;
+}
+.nav__bar__link:hover{
+    color: var(--white-color);
+}
+.icon-angle-navbar{
+    font-size: 1.2rem;
+    margin-right: .2rem;
+}
+.nav__bar__item:hover .nav__bar__dropdown{
+    opacity: 1;
+    visibility: visible;
+}
+.nav__bar__dropdown{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transition: all .2s .1s;
+    background-color: #14141c;
+    top: 9.5rem;  
+    margin-right: -4rem;
+    border-radius: 1rem;
+    width: 22rem;
+    box-shadow: 1px 1px 15px rgba(0,0,0,.15);
+    z-index: 100;
+}
+.nav__bar__dropdown-item{
+    margin:2.5rem 2rem;
+}
+.nav__bar__dropdown_link{
+    color: #ffffffcc;
+    opacity: 0.8;
+    font-size: 1.4rem;
+}
+.nav__bar__dropdown_link:hover{
+    color: var(--primery-color);
+}
+
+.nav__bar__menu-left{
+    display: flex;
+    align-items: center;
+}
+.nav__bar__menu-left .nav__bar__item{
+    margin: 0 .5rem;
+}
+.search-form{
+    position: relative;
+}
+#input-search{
+    background-color: hsla(0,0%,100%,.2)!important;
+    width: 18rem;
+    height: 3.5rem;
+    border: none;
+    color: var(--white-color);
+    border-radius: 10rem;
+    padding: 1.9rem;
+    font-size: 1.5rem;
+}
+#input-search::placeholder{
+    color: var(--white-color);
+    font-family: var(--primery-font);
+}
+.search-form .fa-magnifying-glass{
+    position: absolute;
+    color: var(--white-color);
+    left: 1rem;
+    top: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.nav__bar__link__profile{
+    display: flex;
+}
+.nav__bar__link__profile .nav__bar__dropdown{
+    left: 3rem;
+}
+.box-profile{
+    background-color: var(--blue-color); 
+    padding: .9rem;
+    border-radius: .5rem;
+    transition: all .2s;
+    margin: 0 2rem;
+}
+.nav__bar__link-profile-text{
+    font-size: 1.4rem;
+}
+
+.box-profile-small{
+    background-color: var(--primery-color); 
+    border-radius: .5rem;
+    transition: all .2s;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    cursor: pointer;
+    visibility: hidden;
+    display: none;
+}
+.box-profile-small:hover{
+    opacity: 0.8;
+}
+.box-profile:hover{
+    opacity: 0.8;
+}
+.box-profile .fa-user{
+    color: var(--white-color);
+}
+.nav__bar__link_cart{
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    opacity: 0.7;
+    border: 1px solid white;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.nav__bar__link_cart:hover{
+    color: var(--white-color);
+    opacity: 1;
+}
+
+/* End of nav-bar */
+
+/* End of Header */

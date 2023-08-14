@@ -1,0 +1,6 @@
+.divider-eslash{
+    color: var(--white-color);
+    opacity: 0.5;
+    font-size: 1.5rem;
+    font-weight: 300;
+}

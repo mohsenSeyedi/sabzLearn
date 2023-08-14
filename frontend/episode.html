@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>قسمت ها</title>
+  <link rel="stylesheet" href="vendor/Swiper/cdn.jsdelivr.net_npm_swiper@9_swiper-bundle.min.css">
+  <link rel="stylesheet" href="vendor/Bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/episode.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header">
+
+      <!-- top-bar -->
+      <div class="top__bar">
+           <div class="top__bar-right">
+              <ul class="top__bar__menu">
+                   <li class="top__bar__item">
+                      <a href="#" class="top__bar__link">
+                          <img src="images/blogs/img-top-bar.png" alt="">
+                          همکاری با سبزلرن
+                      </a>
+                   </li>
+                   <li class="top__bar__item">
+                      <a href="#" class="top__bar__link">همه دوره ها</a>
+                   </li>
+              </ul>
+           </div>
+           <div class="top__bar-left">
+              <ul class="top__bar__menu">
+                <li class="top__bar__item"><span id="home-page-email"></span></li>
+                  <li class="top__bar__item"><a href="#"><i class="fa-brands fa-instagram  icon-top"></i></a></li>
+                  <li class="top__bar__item"><a href="#"><i class="fa-brands fa-twitter  icon-top"></i></a></li>
+                  <li class="top__bar__item"><a href="#"><i class="fa-brands fa-youtube  icon-top"></i></a></li>
+                  <li class="top__bar__item"><a href="#"><i class="fa-brands fa-telegram  icon-top"></i></a></li>
+              </ul>
+           </div>
+      </div>
+      <!-- End of top-bar -->
+  
+      <!-- nav-bar -->
+      <div class="nav__bar">
+          <div class="nav__bar__right">
+              <div class="menu-icon-hamburger-countent">
+                  <i class="fas fa-bars menu-icon-hamburger-btn"></i>
+              </div>
+              <img src="images/logo/logo-one-copy.png" alt="" class="primery-logo">
+              <ul class="nav__bar__menu-right" id="navbar-menus-wrapper">
+                  <!-- Data loaded from js -->
+              </ul>
+          </div>
+          <div class="nav__bar__left">
+              <ul class="nav__bar__menu-left">
+                  <li class="nav__bar__item">
+                      <form role="search" class="search-form" method="get" action="#">
+                          <input type="search"  id="input-search" placeholder="جستجو…">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </form>
+                      <li class="nav__bar__item ">
+                          <a href="#" class="nav__bar__link__profile">
+                              <!-- Elem from js -->
+                          </a>
+                      </li>
+                      <li class="nav__bar__item">
+                          <a href="#" class="nav__bar__link_cart">
+                              <i class="fas fa-shopping-cart"></i>
+                          </a>
+                      </li>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <!-- End of nav-bar -->
+     </header>
+     <!-- End of header -->
+
+
+     <!-- content-episode -->
+     <div class="episode">
+      <div class="episode-container">
+        <div class="tutor-lesson-sidebar">
+          <div class="tutor-lesson-sidebar__header">
+            <a href="#">
+              <i class="fa-solid fa-book-open sidebar-header-icon"></i>
+              <span> لیست درس</span>
+            </a>
+          </div>
+          <div class="tutor-lesson-sidebar__content">
+            <div class="accordion  accordion-container">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      سطح مقدماتی
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body" id="accordion-body-sessions">
+                      <!-- Data loaded form js -->
+                  </div>
+                </div>
+              </div>
+              
+      
+            </div>
+          </div>
+        </div>
+        <div class="episode-container-video">
+          <div class="episode-container-video__header">
+            <div class="episode-container-video__header-item">
+             <a href="index.html">
+              <i class="fa-solid fa-house"></i>
+              به دوره خانه بروید 
+             </a>
+            </div>
+            <div class="episode-container-video__header-item">
+              <i class="fa-brands fa-youtube"></i>
+              معرفی دوره 
+            </div>
+          </div>
+          <div class="episode-container-video__body">
+           
+            <div class="episode-container-video__body-video">
+              <h2 class="episode-container-video__body-video-title"></h2>
+              <video class="episode-course-video"  poster="" controls=""></video>
+            </div>
+            <a href="#" class="link-download-video">دانلود ویدیو</a>
+            <div class="episode-content__bottom">
+              <a class="episode-content__backward" href="#">
+                <svg class="svg-inline--fa fa-arrow-right episode-content__backward-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"></path></svg><!-- <i class="episode-content__backward-icon fa fa-arrow-right"></i> Font Awesome fontawesome.com -->
+                قبلی
+              </a>
+              <a class="episode-content__forward" href="#">
+                بعدی
+                <svg class="svg-inline--fa fa-arrow-left episode-content__backward-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M447.1 256C447.1 273.7 433.7 288 416 288H109.3l105.4 105.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H416C433.7 224 447.1 238.3 447.1 256z"></path></svg><!-- <i class="episode-content__backward-icon fa fa-arrow-left"></i> Font Awesome fontawesome.com -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- End of content-episode -->
+  
+
+      <!-- footer -->
+        <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-header">
+              <span class="footer-title">ضمانت سبز لرن برای کلیه محصولات آموزشی</span>
+              <p class="footer-text">وقتی تازه شروع به یادگیری برنامه نویسی کردم. یکی از مشکلاتی که در فرآیند یادگیری داشتم، کمبود آموزش های خوب با پشتیبانی قابل قبول بود که باعث شد اون موقع تصمیم بگیرم اگر روزی توانایی مالی و فنی قابل قبولی داشتم یک وب سایت برای حل این مشکل راه اندازی کنم! و خب امروز آکادمی آموزش برنامه نویسی سبزلرن به عنوان یک آکادمی خصوصی فعالیت میکنه و این به این معنی هست که هر مدرسی اجازه تدریس در اون رو نداره و باید از فیلترینگ های خاص آکادمی سبزلرن رد شه! این به این معنی هست که ما برامون فن بیان و نحوه تعامل مدرس با دانشجو بسیار مهمه! ما در آکادمی سبزلرن تضمین پشتیبانی خوب و با کیفیت رو به شما میدیم . چرا که مدرسین وب سایت سبزلرن حتی برای پشتیبانی دوره های رایگان شون هم مثل آموزش جاوا اسکریپت هزینه دریافت میکنند و متعهد هستند که هوای کاربر های عزیز رو داشته باشند</p>
+          </div>
+          <div class="footer-links-contact">
+              <div class="footer-links footer-links-1">
+                  <a href="#" class="footer-link footer-link-popular">فروشگاه</a>
+                  <a href="#" class="footer-link">ارتباط با ما</a>
+                  <a href="#" class="footer-link">دربـــاره ما</a>
+              </div>
+              <div class="footer-links footer-links-2">
+                  <a href="#" class="footer-link">مقالات</a>
+                  <a href="#" class="footer-link">قوانین و مقررات </a>
+                  <a href="#" class="footer-link">آموزش جاوااسکریپت</a>
+                  <a href="#" class="footer-link footer-link-popular">آموزش پایتون</a>
+              </div>
+              <div class="footer-form-work">
+                  <p class="footer-form-work-title">ساعات کاری:</p>
+                  <p>
+                      شنبه تا چهارشنبه 8 صبح تا 18
+                      <br>
+                      عصر پنج شنبه‌ها ساعت 8 صبح
+                      <br>
+                      تا 12 ظهر
+                  </p>
+              </div>
+              <div class="footer-contact-us">
+                  <p>ارتباط ما:</p>
+                  <p id="email-footer"></p>
+                  <p id="phone-footer"></p>
+              </div>
+              <div class="footer-logo">
+                  <a href="#">
+                      <img src="images/logo/enamad-two-star.png" alt="">
+                  </a>
+              </div>
+          </div>
+          <div class="footer-copyright">
+              <p class="footer-copyright-text">© کلیه حقوق برای  <span>سبزلرن</span> محفوظ است 1401</p>
+          </div>
+      </div>
+      </footer>
+      <!-- End of footer -->
+
+
+      <!-- side-menu -->
+      <div class="side-menu">
+      <button class="close-menu-btn">
+          <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="side-menu__search">
+          <form role="search" class="search-form-menu" method="get" action="#">
+              <input type="search"  id="input-search-menu" placeholder="جستجو…">
+              <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+      </div>
+      <div class="side-menu-accordion-body">
+          <nav class="accordion arrows">
+     
+              <input type="radio" name="accordion" id="cb1" />
+              <section class="box">
+                <label class="box-title" for="cb1">فرانت اند</label>
+                <label class="box-close" for="acc-close"></label>
+                <a href="#" class="box-content">آموزش HTML</a>
+                <a href="#" class="box-content">آموزش CSS</a>
+                <a href="#" class="box-content">آموزش بوت استرپ</a>
+                <a href="#" class="box-content">css grid</a>
+                <a href="#" class="box-content">flex box</a>
+                <a href="#" class="box-content">آموزش اصولی طراحی قالب</a>
+                <a href="#" class="box-content">آموزش ری اکت</a>
+              </section>
+              <input type="radio" name="accordion" id="cb2" />
+              <section class="box">
+                <label class="box-title" for="cb2">امنیت</label>
+                <label class="box-close" for="acc-close"></label>
+                <a href="#" class="box-content">نقشه راه ورود به دنیای امنیت</a>
+                <a href="#" class="box-content">شبکه با گرایش امنیت</a>
+                <a href="#" class="box-content">لینوکس با گرایش امنیت</a>
+                <a href="#" class="box-content">آموزش کالی لینوکس</a>
+                <a href="#" class="box-content">آموزش پایتون سیاه</a>
+              </section>
+              <input type="radio" name="accordion" id="cb3" />
+              <section class="box">
+                <label class="box-title" for="cb3">پایتون</label>
+                <label class="box-close" for="acc-close"></label>
+                <a href="#" class="box-content">دوره آموزش پایتون</a>
+                <a href="#" class="box-content">پروژه های کاربردی با پایتون</a>
+                <a href="#" class="box-content">ترفند های کاربردی پایتون</a>
+                <a href="#" class="box-content">مصور سازی داده با پایتون</a>
+              </section>
+              <input type="radio" name="accordion" id="cb4" />
+              <section class="box">
+                <label class="box-title" for="cb4">مقالات</label>
+                <label class="box-close" for="acc-close"></label>
+                <a href="#" class="box-content">اچ تی ام ال</a>
+                <a href="#" class="box-content">بوت استرپ</a>
+                <a href="#" class="box-content">پروژه های برنامه نویسی</a>
+                <a href="#" class="box-content">تست نفوذ و امنیت وب</a>
+                <a href="#" class="box-content">جی کوئری</a>
+                <a href="#" class="box-content">ریکت جی اس</a>
+              </section>
+              <section class="box box-5">
+                  <a href="#">  مهارت های نرم</a>
+              </section>
+          
+              <input type="radio" name="accordion" id="acc-close" />
+            </nav>
+      </div>
+      </div>
+      <!-- End of side-menu -->
+
+    
+     <script src="vendor/FontAwesome6/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_js_all.min.js"></script>
+     <script src="vendor/Bootstrap/bootstrap.bundle.min.js"></script>
+     <script src="js/side-menu.js"></script>
+     <script src="js/shared.js" type="module"></script>
+     <script src="js/episode.js" type="module"></script>
+</body>
+</html>

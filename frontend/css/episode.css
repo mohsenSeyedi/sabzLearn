@@ -1,0 +1,210 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./default-style.css";
+@import "./footer.css";
+@import "./divider-slash.css";
+@import "./side-menu.css";
+
+.episode{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.episode-container{
+    width: 100%;
+    display: flex;
+}
+.tutor-lesson-sidebar{
+    width: 40%;
+    height: 90vh;
+}
+.tutor-lesson-sidebar__header{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-left: 2px solid #8a8a8a;
+    background-color: #2f3041;
+}
+.tutor-lesson-sidebar__header a{
+    display: flex;
+    align-items: center;
+}
+.sidebar-header-icon{
+    font-size: 2rem;
+    color: white;
+}
+.tutor-lesson-sidebar__header span{
+    font-size: 1.6rem;
+    color: var(--white-color);
+    margin-right: 1rem ;
+}
+
+.episode-container-video{
+    width: 60%;
+    height: 90vh;
+}
+.episode-container-video__header{
+    width: 100%;
+    height: 7rem;
+    background-color: #2f3041;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--white-color);
+}
+.episode-container-video__header a{
+    color: var(--white-color);
+}
+.episode-container-video__body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.episode-container-video__body-video-title{
+    font-size: 1.8rem;
+    color: var(--white-color);
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    opacity: .9;
+}
+.episode-container-video__body-video{
+    width: 80%;
+    margin-top: 5rem;
+}
+.episode-course-video{
+    width: 100%;
+    border-radius: .5rem;
+}
+.link-download-video{
+    color: var(--white-color);
+    background-color: #494949;
+    padding: 1.5rem 2rem;
+    margin-top: 2rem;
+    border-radius: .3rem;
+}
+.link-download-video:hover{
+    color: #494949;
+    background-color: #abaaaa;
+}
+.episode-content__bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+.episode-content__bottom a{
+    color: var(--white-color);
+}
+
+
+/* accordion */
+.accordion{
+    --bs-accordion-bg: #2f3041;
+    --bs-accordion-border-color: #2f3041;
+    --bs-accordion-btn-focus-border-color: none;
+    --bs-accordion-btn-focus-box-shadow:none;
+    --bs-accordion-border-radius: .5rem;
+    --bs-accordion-inner-border-radius: calc(.5rem - 1px);
+    width: 100%;
+    height: 50rem;
+    overflow-y: scroll;
+}
+.accordion-button:not(.collapsed){
+   background-color: #2f3041;
+   color: var(--white-color);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+    height: 5rem;
+}
+.accordion-button{
+    position: relative;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+.accordion-button::after{
+    position: absolute;
+    left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-position: center;
+    background-color: var(--white-color);
+    border-radius: 50%;
+}
+.accordion-item{
+    width: 100%;
+}
+.accordion-body__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(0 0 0 / 18%);
+    padding: 1.4rem 1rem;
+}
+.accordion-body__item-right{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.accordion-body__item-right a{
+    color: var(--white-color);
+}
+.accordion-body__item-left{
+    display: flex;
+    color: white;
+}
+.meeting-time{
+    margin-left: 1rem;
+}
+.accordion-body__item-count{
+    border: 1px solid var(--white-color);
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+.accordion-body__item-right-icon{
+    color: var(--white-color);
+    opacity: 0.6;
+    margin-left: 1rem;
+}
+.accordion-body__item-title{
+    color: var(--white-color);
+    transition: all .3s;
+    width: 100%;
+}
+.accordion-body__item-title:hover{
+    color: var(--white-color);
+}
+.courses-related{
+    text-align: center;
+    margin: 3rem 0;
+    border-top: 1px solid #ffffff33;
+}
+.courses-related-title{
+    color: var(--white-color);
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+.course-box__product-name:hover{
+    color: var(--white-color);
+}
+.swiper-container{
+    margin-right: 2rem;
+}
+.related-courses-wrapper-text{
+   font-size: 2.5rem;
+   color: var(--primery-color);
+   margin: 1rem 0;
+}
+
+/* End of accordion */

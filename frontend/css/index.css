@@ -1,0 +1,120 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./side-menu.css";
+@import "./default-style.css";
+@import "./responsive.css";
+@import "./course-box.css";
+@import "./footer.css";
+
+
+/* section-content */
+.section-content{
+    width: 100%;
+    height: 30rem;
+    background-color: #343547;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid #767676;
+    margin-top: 1rem;
+
+}
+.title-section-content{
+    color: var(--white-color);
+    font-size: 2rem;
+    transition: all .1s;
+}
+.box-search input{
+    background-color: hsla(0,0%,100%,.2)!important;
+    width: 60rem;
+    height: 7rem;
+    border: none;
+    color: var(--white-color);
+    border-radius: 10rem;
+    padding: 1.9rem;
+    font-size: 2.5rem;
+    opacity: 0.8;
+}
+.box-search input::placeholder{
+    color: var(--white-color);
+    font-family: var(--primery-font);
+}
+.box-search .fa-magnifying-glass{
+    position: relative;
+    color: var(--white-color);
+    left: 7rem;
+    font-size: 3.5rem;
+    cursor: pointer;
+}
+.icon-angle-section{
+    font-size: 4rem;
+    cursor: pointer;
+    color: var(--white-color);
+    opacity: 0.8;
+}
+/* End of section-content */
+
+/* courses*/
+.courses-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.courses-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 24rem);
+    margin-top: 5rem;
+}
+/* End of courses */
+
+
+/* section-articles */
+.stction-articles-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.stction-articles-title span{
+    font-size: 2rem;
+    color: var(--primery-color);
+    margin: 0 2rem;
+    font-weight: 200;
+}
+.stction-articles-title b{
+    background-color: white;
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+}
+.articles-slider{
+    margin-top:3rem;
+    padding: 2rem;
+}
+.articles-box{
+    width: 23rem;
+    text-align:center;
+    margin-bottom: 8rem;
+}
+.articles-box img{
+    width: 100%;
+    border-radius: 2rem;
+}
+.articles-box-label{
+    color: #f1f1f1;
+    font-size: 1rem;
+    margin: 1.2rem 0;
+    opacity: .7;
+}
+.articles-box-title{
+    color: var(--white-color);
+    font-size: 1.5rem;
+    line-height: 1.5;
+} 
+/* End of section-articles */
+
+
+

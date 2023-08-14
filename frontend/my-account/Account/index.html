@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حساب کاربری من</title>
+    <link rel="stylesheet" href="vendor/BootStrap/BootStrap.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
+
+</head>
+
+<body>
+
+      <!-- header -->
+      <header class="header">
+
+    <!-- top-bar -->
+    <div class="top__bar">
+         <div class="top__bar-right">
+            <ul class="top__bar__menu">
+                 <li class="top__bar__item">
+                    <a href="#" class="top__bar__link">
+                        <img src="../../images/blogs/img-top-bar.png" alt="">
+                        همکاری با سبزلرن
+                    </a>
+                 </li>
+                 <li class="top__bar__item">
+                    <a href="#" class="top__bar__link">همه دوره ها</a>
+                 </li>
+            </ul>
+         </div>
+         <div class="top__bar-left">
+            <ul class="top__bar__menu">
+                <li class="top__bar__item"><span id="home-page-email"></span></li>
+                <li class="top__bar__item"><a href="#"><i class="fa-brands fa-instagram  icon-top"></i></a></li>
+                <li class="top__bar__item"><a href="#"><i class="fa-brands fa-twitter  icon-top"></i></a></li>
+                <li class="top__bar__item"><a href="#"><i class="fa-brands fa-youtube  icon-top"></i></a></li>
+                <li class="top__bar__item"><a href="#"><i class="fa-brands fa-telegram  icon-top"></i></a></li>
+            </ul>
+         </div>
+    </div>
+    <!-- End of top-bar -->
+
+    <!-- nav-bar -->
+    <div class="nav__bar">
+        <div class="nav__bar__right">
+            <div class="menu-icon-hamburger-countent">
+                <i class="fas fa-bars menu-icon-hamburger-btn"></i>
+            </div>
+            <img src="../../images/logo/logo-one-copy.png" alt="" class="primery-logo">
+            <ul class="nav__bar__menu-right" id="navbar-menus-wrapper">
+                <!-- Data loaded from js -->
+            </ul>
+        </div>
+        <div class="nav__bar__left">
+            <ul class="nav__bar__menu-left">
+                <li class="nav__bar__item">
+                    <form role="search" class="search-form" method="get" action="#">
+                        <input type="search"  id="input-search" placeholder="جستجو…" class="input-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+                    <li class="nav__bar__item ">
+                        <a href="#" class="nav__bar__link__profile">
+                            <!-- Elem from js -->
+                        </a>
+                    </li>
+                    <li class="nav__bar__item">
+                        <a href="#" class="nav__bar__link_cart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of nav-bar -->
+   </header>
+   <!-- End of header -->
+
+    <!--------------------------------  Content-Section  -------------------------------->
+    <section class="content">
+        <div class="content-header">
+            <div class="container">
+                <span class="content-header__title">حساب کاربری من</span>
+                <span class="content-header__subtitle">پیشخوان</span>
+            </div>
+        </div>
+        <div class="content-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="sidebar">
+                            <span class="sidebar__name"></span>
+                            <ul class="sidebar__list">
+                                <li class="sidebar__item">
+                                    <a class="sidebar__link" href="#">پیشخوان</a>
+                                </li>
+                                <li class="sidebar__item">
+                                    <a class="sidebar__link" href="../Orders/index.html">سفارش ها</a>
+                                </li>
+                                <li class="sidebar__item">
+                                    <a class="sidebar__link" href="../Edit/index.html">جزئیات حساب کاربری</a>
+                                </li>
+                                <li class="sidebar__item">
+                                    <a class="sidebar__link" href="../Buyed/index.html">دوره های خریداری شده</a>
+                                </li>
+                                <li class="sidebar__item">
+                                    <a class="sidebar__link" href="../Tickets/index.html">تیکت های پشتیبانی</a>
+                                </li>
+                                <li class="sidebar__item" id="logout-user">
+                                    <a class="sidebar__link" href="#">خروج از سیستم</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="main">
+                            <!-- <div class="main__title">
+                                <span class="main__title-text">سلام <span class="main__title-name"></span> نیستید؟</span>
+                                <a class="main__title-link" href="#">خارج شوید</a>
+                            </div> -->
+                            <p class="main__desc">از طریق پیشخوان حساب کاربری‌تان، می‌توانید سفارش‌های اخیرتان را
+                                مشاهده، آدرس‌های حمل و نقل و صورتحساب‌تان را مدیریت و جزییات حساب کاربری و کلمه عبور خود
+                                را ویرایش کنید.
+                            </p>
+                            <div class="main__links">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a class="main__link" href="../Orders/index.html">سفارش</a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a class="main__link" href="../Buyed/index.html">دوره های خریداری شده</a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a class="main__link" href="#">کیف پول من</a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a class="main__link" href="../Edit/index.html">جزئیات حساب کاربری</a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a class="main__link" href="../Tickets/index.html">تیکت های پشتیبانی</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------  Content-Section  -------------------------------->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-header">
+                <span class="footer-title">ضمانت سبز لرن برای کلیه محصولات آموزشی</span>
+                <p class="footer-text">وقتی تازه شروع به یادگیری برنامه نویسی کردم. یکی از مشکلاتی که در فرآیند یادگیری داشتم، کمبود آموزش های خوب با پشتیبانی قابل قبول بود که باعث شد اون موقع تصمیم بگیرم اگر روزی توانایی مالی و فنی قابل قبولی داشتم یک وب سایت برای حل این مشکل راه اندازی کنم! و خب امروز آکادمی آموزش برنامه نویسی سبزلرن به عنوان یک آکادمی خصوصی فعالیت میکنه و این به این معنی هست که هر مدرسی اجازه تدریس در اون رو نداره و باید از فیلترینگ های خاص آکادمی سبزلرن رد شه! این به این معنی هست که ما برامون فن بیان و نحوه تعامل مدرس با دانشجو بسیار مهمه! ما در آکادمی سبزلرن تضمین پشتیبانی خوب و با کیفیت رو به شما میدیم . چرا که مدرسین وب سایت سبزلرن حتی برای پشتیبانی دوره های رایگان شون هم مثل آموزش جاوا اسکریپت هزینه دریافت میکنند و متعهد هستند که هوای کاربر های عزیز رو داشته باشند</p>
+            </div>
+            <div class="footer-links-contact">
+                <div class="footer-links">
+                    <a href="#" class="footer-link footer-link-popular">فروشگاه</a>
+                    <a href="#" class="footer-link">ارتباط با ما</a>
+                    <a href="#" class="footer-link">دربـــاره ما</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">مقالات</a>
+                    <a href="#" class="footer-link">قوانین و مقررات </a>
+                    <a href="#" class="footer-link">آموزش جاوااسکریپت</a>
+                    <a href="#" class="footer-link footer-link-popular">آموزش پایتون</a>
+                </div>
+                <div class="footer-form-work">
+                    <p class="footer-form-work-title">ساعات کاری:</p>
+                    <p>
+                        شنبه تا چهارشنبه 8 صبح تا 18
+                        <br>
+                        عصر پنج شنبه‌ها ساعت 8 صبح
+                        <br>
+                        تا 12 ظهر
+                    </p>
+                </div>
+                <div class="footer-contact-us">
+                    <p>ارتباط ما:</p>
+                    <p id="email-footer"></p>
+                    <p id="phone-footer"></p>
+                </div>
+                <div class="footer-logo">
+                    <a href="#">
+                        <img src="../../images/logo/enamad-two-star.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p class="footer-copyright-text">© کلیه حقوق برای  <span>سبزلرن</span> محفوظ است 1401</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End of footer -->
+
+     <!-- side-menu -->
+     <div class="side-menu">
+        <button class="close-menu-btn">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="side-menu__search">
+            <form role="search" class="search-form-menu" method="get" action="#">
+                <input type="search"  id="input-search-menu" placeholder="جستجو…">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+        </div>
+        <div class="side-menu-accordion-body">
+            <nav class="accordion arrows">
+       
+                <input type="radio" name="accordion" id="cb1" />
+                <section class="box">
+                  <label class="box-title" for="cb1">فرانت اند</label>
+                  <label class="box-close" for="acc-close"></label>
+                  <a href="#" class="box-content">آموزش HTML</a>
+                  <a href="#" class="box-content">آموزش CSS</a>
+                  <a href="#" class="box-content">آموزش بوت استرپ</a>
+                  <a href="#" class="box-content">css grid</a>
+                  <a href="#" class="box-content">flex box</a>
+                  <a href="#" class="box-content">آموزش اصولی طراحی قالب</a>
+                  <a href="#" class="box-content">آموزش ری اکت</a>
+                </section>
+                <input type="radio" name="accordion" id="cb2" />
+                <section class="box">
+                  <label class="box-title" for="cb2">امنیت</label>
+                  <label class="box-close" for="acc-close"></label>
+                  <a href="#" class="box-content">نقشه راه ورود به دنیای امنیت</a>
+                  <a href="#" class="box-content">شبکه با گرایش امنیت</a>
+                  <a href="#" class="box-content">لینوکس با گرایش امنیت</a>
+                  <a href="#" class="box-content">آموزش کالی لینوکس</a>
+                  <a href="#" class="box-content">آموزش پایتون سیاه</a>
+                </section>
+                <input type="radio" name="accordion" id="cb3" />
+                <section class="box">
+                  <label class="box-title" for="cb3">پایتون</label>
+                  <label class="box-close" for="acc-close"></label>
+                  <a href="#" class="box-content">دوره آموزش پایتون</a>
+                  <a href="#" class="box-content">پروژه های کاربردی با پایتون</a>
+                  <a href="#" class="box-content">ترفند های کاربردی پایتون</a>
+                  <a href="#" class="box-content">مصور سازی داده با پایتون</a>
+                </section>
+                <input type="radio" name="accordion" id="cb4" />
+                <section class="box">
+                  <label class="box-title" for="cb4">مقالات</label>
+                  <label class="box-close" for="acc-close"></label>
+                  <a href="#" class="box-content">اچ تی ام ال</a>
+                  <a href="#" class="box-content">بوت استرپ</a>
+                  <a href="#" class="box-content">پروژه های برنامه نویسی</a>
+                  <a href="#" class="box-content">تست نفوذ و امنیت وب</a>
+                  <a href="#" class="box-content">جی کوئری</a>
+                  <a href="#" class="box-content">ریکت جی اس</a>
+                </section>
+                <section class="box box-5">
+                    <a href="#">  مهارت های نرم</a>
+                </section>
+            
+                <input type="radio" name="accordion" id="acc-close" />
+              </nav>
+        </div>
+    </div>
+    <!-- End of side-menu -->
+    
+    <script src="../../vendor/FontAwesome6/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_js_all.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../../js/account/shared.js" type="module"></script>
+    <script src="../../js/side-menu.js"></script>
+    <script src="../../js/shared.js" type="module"></script>
+    <script src="../../js/account/shared.js" type="module"></script>
+   
+</body>
+
+</html>

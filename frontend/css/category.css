@@ -1,0 +1,89 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./default-style.css";
+@import "./course-box.css";
+@import "./footer.css";
+@import "./pagination.css";
+@import "./divider-slash.css";
+@import "./side-menu.css";
+
+
+.section-content-category{
+    width: 100%;
+    height: 26rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.page-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+    font-size: 2.1rem;
+}
+.title-category-link{
+    color: var(--white-color);
+}
+
+.title-category-text{
+    color: var(--white-color);
+    font-size: 2.3rem;
+}
+.page-title div{
+    padding: 0 2rem;
+}
+.orderby{
+    width: 24rem;
+    height: 4rem;
+    border-radius: 3rem;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    font-family: var(--primery-font);
+    background-color: hsla(0,0%,100%,.2)!important;
+    border: none;
+    color: var(--white-color);
+}
+.orderby option{
+    background: rgb(0 0 0 / 18%) !important;
+    color: #333;
+}
+.courses-category-description{
+    padding-top: 4rem;
+    padding-right: 1rem;
+}
+.courses-category-description p{
+    padding: 1.5rem;
+    font-size: 1.8rem;
+}
+.courses-category-description p a{
+    color: #f1f1f1;
+}
+
+/* courses-category */
+
+.courses-category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.courses-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 24rem);
+    margin-top: 5rem;
+}
+.courses-container-category__text{
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--primery-color);
+    width: 50rem;
+    margin: 2rem 0;
+}
+
+/* End of courses-category */
+
+
+

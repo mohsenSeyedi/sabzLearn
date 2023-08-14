@@ -1,0 +1,36 @@
+/* default Styles  */
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.6rem;
+    font-weight: 1.6;
+    font-family: var(--primery-font);
+    direction: rtl;
+    background-color: #242532;
+    position: relative;
+    overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before{
+    outline: none;
+    box-sizing: inherit;
+}
+
+i{
+    user-select: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all .3s ;
+}
+
+
+/* End of default Styles */

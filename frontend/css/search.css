@@ -1,0 +1,34 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./side-menu.css";
+@import "./default-style.css";
+@import "./course-box.css";
+@import "./footer.css";
+
+
+
+.section-search{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.search-title{
+    color: var(--primery-color);
+    font-size: 2rem;
+    margin: 4rem 1rem 0 0;
+    padding-right: 2rem;
+}
+.courses-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.courses-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 24rem);
+    margin-top: 5rem;
+}
+.course-container-text{
+    color: var(--white-color);
+    font-size: 1.8rem;
+}

@@ -1,0 +1,154 @@
+
+.side-menu{
+    width: 25rem;
+    height: 100vh;
+    background-color: #f3f3f4;
+    position: fixed;
+    top: 0;
+    right: -60rem;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all .2s;
+}
+.side-menu.active{
+    right: 0;
+}
+.close-menu-btn{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    opacity: .8;
+    transition: all .3s;
+    border: none;
+}
+.close-menu-btn:hover{
+    opacity: 1;
+}
+.search-form-menu{
+    position: relative;
+    top: 7rem;
+}
+#input-search-menu{
+    background-color: #c8c8c8;
+    width: 22rem;
+    height: 3.5rem;
+    border: none;
+    color: var(--dark-color);
+    border-radius: 10rem;
+    padding: 1.9rem;
+    font-size: 1.5rem;
+}
+#input-search-menu::placeholder{
+    color: var(--dark-color);
+    font-family: var(--primery-font);
+    opacity: .8;
+}
+.search-form-menu .fa-magnifying-glass{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: var(--dark-color);
+}
+
+/* accordion */
+.side-menu-accordion-body{
+  width: 100%;
+  margin-top: 10rem;
+}
+.accordion {
+    margin: auto;
+   width: 100%;
+}
+.accordion input {
+  display: none;
+}
+.box {
+  position: relative;
+  background-color: #f3f3f4;
+  height: 64px;
+  transition: all .15s ease-in-out;
+}
+.box::before {
+   content: '';
+   position: absolute;
+   display: block;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   pointer-events: none;
+}
+
+.box-title {
+  color: rgb(20 20 20);
+  width: calc(100% - 40px);
+  height: 64px;
+  line-height: 64px;
+  padding: 0 20px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+}
+.box-content {
+  width: 100%;
+  height: auto;
+  padding: 50px 30px;
+  font-size: 11pt;
+  color: #666;
+  opacity: 0.7;
+  display: none;
+  background-color: #e7e7e7;
+  transition: all .3s;
+}
+.box-content:hover{
+  opacity: 1;
+}
+.box-close {
+  position: absolute;
+  height: 64px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none;
+}
+.box-5{
+  margin-top: 2rem;
+}
+.box a{
+  padding: 2rem 2rem 0 0;
+  color: rgb(20 20 20);
+}
+input:checked + .box {
+  height: auto;
+  margin: 16px 0;
+}
+
+input:checked + .box .box-content,
+input:checked + .box .box-close {
+  display: inline-block;
+}
+.arrows section .box-title {
+  padding-left: 44px;
+  width: calc(100% - 64px);
+}
+.arrows section .box-title:before {
+  position: absolute;
+  display: block;
+  content: '\203a';
+  font-size: 18pt;
+  left: 20px;
+  top: -2px;
+  transition: transform .15s ease-in-out;
+  color: rgba(0,0,0,.54);
+}
+input:checked + section.box .box-title:before {
+  transform: rotate(90deg);
+}
+/* End of accordion */
