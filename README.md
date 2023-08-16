@@ -2,6 +2,18 @@
 
 This is a tutorial store site that you can model for your projects
 
+## Project characteristics
+
+* This project has both an admin panel and a user panel
+
+
+## Demo project
+
+<img src="./demo-1.png" alt="LinkedIn Badge"/>
+
+----
+
+<img src="./demo-2.png" alt="LinkedIn Badge"/>
 
 
 ## start
