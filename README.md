@@ -18,6 +18,21 @@ This is a tutorial store site that you can model for your projects
 
 ## start
 
+To have this project in your system, you need to install this tool, and for that reason, put the link of each one for you:
+
+* node js => https://nodejs.org/en
+* mongoDB => https://www.mongodb.com/try/download/community-kubernetes-operator
+* Robo 3T => https://robomongo.org/
+
+After the installation of these items was successful, proceed 👇👇
+
+1- At this stage, we have to import the database and run the project
+
+* Log in to mongoDB and make a connection and set the connection name to : connection name=> http://localhost:27017
+* Connect after you connect
+
+After these are successful, continue 👇👇
+
 In order to start this project, you must first open the backend file from your terminal with the following command :
 
 ```bash
